@@ -23,7 +23,7 @@ protobuf = ">=4.21.0,<5.0.0"
 gguf = { path = "./gguf-py" }
 torch = { version = "^2.2.0", source = "pytorch" }
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 pytest = "^5.2"
 
 
